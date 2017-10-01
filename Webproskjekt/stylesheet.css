@@ -269,19 +269,6 @@ article div {
 		font-size: 79.999%;
 	}
     
-    #appleStore {
-        margin-right: auto;
-    }
-
-    #googleStore {
-        margin-left: auto;
-    }
-
-	#CMWorldLogo {
-    opacity: 0.8;
-    width: 100%;
-    margin: 0;
-    }
     .viddeProblem {
     width: 100%;
     }
@@ -293,24 +280,7 @@ article div {
 	.innhold {
 		margin-bottom: 0px;
 	}
-	
-	.artikkelinnhold2 h1 {
-		text-align: left;
-	}
-	
-	.artikkelinnhold2 h2 {
-		text-align: left;
-	}
-	
-	.artikkelinnhold2avsnitt {
-		width: 100%;
-	}
-	
-	#conclusion {
-		background-size: cover;
-		background-position: center top;
-		background-attachment: scroll;
-	}
+
 }
 
 
