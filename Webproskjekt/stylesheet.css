@@ -3,6 +3,11 @@ html {
 	margin: 0;
 }
 
+::selection {
+  background: #f9b91e;
+  color: white;
+}
+
 body {
 	margin: 0;
 	padding: 0;
@@ -12,26 +17,14 @@ body {
 	font-size: 100%;
 }
 
-#appleStore {
-    margin-right: 10px;
-}
-
-#googleStore {
-    margin-left: 10px;
-}
-
-::selection {
-  background: #f9b91e;
-  color: white;
-}
-
-#menyBakgrunn {
+#menuWrapper {
     position: absolute;
     width: 100%;
     height: 50px;
     text-align: center;
     z-index: 10;
 }
+
 
 #span2{
     padding-top: 20px;
@@ -43,27 +36,19 @@ body {
     border-bottom: 1px solid rgba(255,255,255,0.1);
 }
 
-#nohov {
-    background-color: transparent;
-    min-width: 0;
-
-}
-
-/*Pynter pÃ¥ ul*/
 ul {
     list-style-type:none;
     margin:0;
     padding:0;
 }
 
-/*Pynter pÃ¥ li*/
 li {
     display:inline-block;
     vertical-align: top;
     font-weight: 600;
 }
 
-/*Navbar link utseende*/
+
 li a {
     display:block;
     min-width:140px;
@@ -76,14 +61,10 @@ li a {
     font-size: 1rem;
 }
 
-/* Navbar link farger nÃ¥r du hover over */
 li:hover a {
     color: #f9b91e;
 }
 
-
-
-/* Pynting for show-menu label */
 .show-menu {
     font-family:"Helvetica Neue",Helvetica,Arial,sans-serif;
     text-decoration:none;
@@ -97,19 +78,14 @@ li:hover a {
     width:100%!important
 }
 
-/* For at responsive menyen skal forsvinne */
 input[type=checkbox] {
     display:none
 }
 
-/* Samme som oppe */
 input[type=checkbox]:checked ~ #menu {
     display:block;
     margin:0 auto;
 }
-
-
-/* Header bilde i bakgrunnen pÃ¥ frontpage */
 
 header {
   background: url(momo1.jpg) no-repeat center center fixed; 
@@ -119,10 +95,6 @@ header {
   background-size: cover;
   height: 900px;
 }
-
-/* Frontpage innhold */
-
-
 
 section {
     position: absolute;
@@ -136,13 +108,6 @@ article {
 
 article div {
 	
-}
-
-.artikkelinnhold {
-	width: 80%;
-	margin: 0 auto;
-	color: #555555;
-	padding: 20px;
 }
 
 /* Artikkel innhold pynting og text dekorasjon */
@@ -173,22 +138,9 @@ article div {
         padding: 2%
 }
 
-#purpose {
-    background-color: #f3f3f3;
+#section1 {
+    background-color: white;
 }
-
-.iPhoneHow {
-    height: auto;
-    width: 49%;
-	display: inline-block;
-	vertical-align: middle;
-	box-sizing: border-box; 
-}
-
-#iPhonetxt {
-    width: 49%;
-}
-
 
 .txtHow {
     text-align: justify;
@@ -201,45 +153,34 @@ article div {
 }
 
 
-.artikkelinnhold2 {
+.sectionContainer {
 	width: 70%;
 	margin: 0 auto;
 	color: #555555;
 	padding: 20px;
+    padding-bottom: 5%;
 }
 
-.artikkelinnhold2 h1 {
+.sectionContainer h1 {
 	font-size: 4.5em;
 	text-align: left;
     margin-bottom: 3%;
 }
 
-.artikkelinnhold2 h2 {
+.sectionContainer h2 {
 	padding: 0;
 	margin: 0;
 	font-weight: lighter;
 	font-size: 3em;
 }
 
-.artikkelinnhold2 p {
+.sectionContainer p {
 	width: 60%;
 	text-align: justify;
 	font-size: 1.2em;
 	line-height: 1.6;
 }
 
-.artikkelinnhold2avsnitt {
-	width: 75%;
-	padding: 5px;
-	padding-left: 15px;
-	padding-right: 15px;
-	color: white;
-	background-color: rgba(0, 0, 0, 0.5);
-}
-
-#conclusion {
-    background-color: #f3f3f3;
-}
 
 .innhold {
 	margin-top: 50px;
@@ -266,21 +207,6 @@ article div {
 	box-sizing: border-box; 
 }
 
-
-#DownloadApp {
-    background-color: white;
-    border-bottom: grey solid 1px;
-}
-#DownloadApp .column {
-	margin-bottom: 50px;
-}
-
-
-#CMWorldLogo {
-    opacity: 0.8;
-    width: 100%;
-}
-
 #parent_div_1{
 	padding-top: 10%;
 }
@@ -302,21 +228,6 @@ article div {
     margin: auto;
 }
 
-#darkshade {
-    height: 100%;
-    width: 100%;
-    position: absolute;
-    background: url(Pictures/pexels-photo-57825.jpeg) no-repeat center center fixed;
-    -webkit-background-size: cover;
-    -moz-background-size: cover;
-    -o-background-size: cover;
-    background-size: cover;
-}
-
-#darkshade2 {
-    height: 100%;
-	width: 100%;
-}
 
 
 #spantxt1 {
@@ -331,13 +242,13 @@ article div {
 }
 
 
-.btns {
+.buttonWrapper {
     margin: auto;
     width: 35%;
     padding: 150px;
 }
 
-.btn1 {
+.myButton {
     display: inline-block;
     background: #f9b91e;
     border: #f9b91e; 
@@ -354,7 +265,7 @@ article div {
 
 
 
-.btn1:hover {
+.myButton:hover {
     background-color: white;
     color: black;
     
@@ -363,6 +274,7 @@ article div {
 
 footer {
     height: 150px;
+    border-top: black 5px;
 }
 
 #shareimg {
@@ -392,20 +304,6 @@ footer {
     -moz-transform: scale(0.9);
     -webkit-transform: scale(0.9);
     -o-transform: scale(0.9);
-}
-
-#shareimg2 img:hover {
-    -moz-transform: scale(1);
-    -webkit-transform: scale(1);
-    -o-transform: scale(1);
-}
-
-
-#logoicon {
-    margin-top: 5px;
-    margin-left: 50%;   
-    height: 120px;
-    width: 80px;
 }
 
 
@@ -504,7 +402,7 @@ footer {
 
 /* Bruker media screen for at download button pÃ¥ homepage skal bli responsive */
 @media screen and (max-width: 1150px) {
-    .btn1 {
+    .myButton {
         width: 102%;
         margin-top: 10px;
     }
@@ -513,9 +411,6 @@ footer {
 /*Responsive Styles*/
 @media screen and (max-width : 936px) {
     /*Make dropdown links appear inline*/
-    #CMSpec {
-        color: black;
-    }
     ul {
         position:static;
         display:none;
@@ -523,14 +418,7 @@ footer {
         background-color: white;
     }
     
-    #logoicon {
-    margin-top: 5px;
-    margin-left: 0;   
-    height: 38px;
-    width: 42px;
-    }
-    
-    /*Create vertical spacing*/
+
     li:hover a {
         color: white;
         background-color: black;
