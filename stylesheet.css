@@ -4,7 +4,7 @@ html {
 }
 
 ::selection {
-  background: #f9b91e;
+  background: #de4f4f;
   color: white;
 }
 
@@ -62,14 +62,14 @@ li a {
 }
 
 li:hover a {
-    color: #f9b91e;
+    color: #de4f4f;
 }
 
 .show-menu {
     font-family:"Helvetica Neue",Helvetica,Arial,sans-serif;
     text-decoration:none;
     color:#fff;
-    background:#f9b91e;
+    background:#de4f4f;
     font-weight: 900;
     text-transform: uppercase;
     text-align:center;
@@ -93,14 +93,38 @@ header {
   -moz-background-size: cover;
   -o-background-size: cover;
   background-size: cover;
-  height: 900px;
+  height: 850px;
 }
 
 section {
-    position: absolute;
 	top: 100%;
 
 }
+
+#section1 {
+    background-color: white;
+}
+
+#section2{
+      background: url(momo1.jpg) no-repeat center center fixed; 
+  -webkit-background-size: cover;
+  -moz-background-size: cover;
+  -o-background-size: cover;
+  background-size: cover;
+}
+
+#section3 {
+    background-color: white;
+}
+
+#section4 {
+    background-color: #e7e7ef;
+}
+
+#section5{
+    background-color: white;
+}
+
 
 article {
 	background-color: white;
@@ -115,20 +139,6 @@ article div {
         padding-left: 15px;
         padding-right: 15px;
         padding: 2%
-}
-
-#section1 {
-    background-color: white;
-}
-
-.txtHow {
-    text-align: justify;
-    font-size: 1.5em;
-    margin-bottom: 1%;
-}
-
-#txt {
-    width: 59%;
 }
 
 
@@ -202,29 +212,142 @@ article div {
 }
 
 
+.sectionContainer2 {
+	text-align: center;
+    width: 70%;
+	margin: 0 auto;
+	color: white;
+	padding: 20px;
+}
+
+.sectionContainer2 h2 {
+	padding: 0;
+	margin: 0;
+	font-weight: lighter;
+	font-size: 2.4em;
+}
+
+.sectionContainer2 p {
+	width: 100%;
+	text-align: justify;
+	line-height: 1.6;
+	font-size: 1.2em;
+}
+
+.sectionContainer3 {
+	text-align: center;
+    width: 70%;
+	margin: 0 auto;
+	color: #555555;
+	padding: 20px;
+}
+
+.sectionContainer3 h2 {
+	padding: 0;
+	margin: 0;
+	font-weight: lighter;
+	font-size: 2.4em;
+}
+
+.sectionContainer3 p {
+	width: 100%;
+	text-align: justify;
+	line-height: 1.6;
+	font-size: 1em;
+}
+
+
+.sectionContainer4 {
+	text-align: center;
+    width: 70%;
+	margin: 0 auto;
+	color: black;
+	padding: 20px;
+}
+
+.sectionContainer4 h2 {
+	padding: 0;
+	margin: 0;
+	font-weight: lighter;
+	font-size: 2.4em;
+}
+
+.sectionContainer4 p {
+	width: 100%;
+	text-align: justify;
+	line-height: 1.6;
+	font-size: 1.2em;
+}
+
+.sectionContainer5 {
+	text-align: center;
+    width: 70%;
+	margin: 0 auto;
+	color: black;
+	padding: 20px;
+}
+
+.sectionContainer5 h2 {
+	padding: 0;
+	margin: 0;
+	font-weight: lighter;
+	font-size: 2.4em;
+}
+
+.sectionContainer5 p {
+	width: 100%;
+	text-align: justify;
+	line-height: 1.6;
+	font-size: 1.2em;
+}
+
+.sectionParagraph {
+        background-color: rgba(0, 0, 0, 0.75);
+        padding-left: 15px;
+        padding-right: 15px;
+        padding: 2%
+}
+
+#SideBySide {
+    width: 48%;
+    margin-top: 10%;
+    margin-bottom: 10%;
+    display: inline-block;
+    vertical-align: middle;
+    box-sizing: border-box;
+}
+
+#purpose {
+    background-color: #f3f3f3;
+}
+
+
+
 
 #spantxt1 {
-    font-size: 92px;
+    font-size: 70px;
     font-weight: 700;
     color: white;
+    text-transform: uppercase;
 }
 
 #spantxt2 {
-    font-size: 32px;
+    font-size: 30px;
     color: white;
+    font-weight: 100;
 }
 
 
 .buttonWrapper {
     margin: auto;
     width: 35%;
-    padding: 150px;
+    padding: 125px;
 }
 
 .myButton {
     display: inline-block;
-    background: #f9b91e;
-    border: #f9b91e; 
+    background: #de4f4f;
+    border: #de4f4f; 
     color: #fff;
     font-weight: 900;
     padding: 16px 20px;
