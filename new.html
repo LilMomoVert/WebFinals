@@ -6,7 +6,7 @@
 		<meta charset="utf-8">
 		<meta http-equiv="Content-Type" content="text/html">
 		<meta name="viewport" content="width=device-width, initial-scale=1.0" />
-		<title>Allergy Checker - Keep track of your allergies.</title>
+		<title>Allergy Checker - Helping you avoid allergens.</title>
 		<link rel="stylesheet" type="text/css" href="stylesheet.css">
 		<link href='https://fonts.googleapis.com/css?family=Droid+Sans:400,700' rel='stylesheet' type='text/css'>
 		<link href='https://fonts.googleapis.com/css?family=Lato:400,300,700,900,400italic' rel='stylesheet' type='text/css'>
@@ -23,15 +23,15 @@
                     <label for="show-menu" class="show-menu">Show Menu</label>
                         <input type="checkbox" id="show-menu" role="button"/>
                             <ul id="menu">
-                                <li><a href="#homepage">Home</a>
+                                <!--<li><a href="#homepage">Home</a>
+                                </li>-->
+                                <li>
+                                    <a href="#section1">Problem</a>
                                 </li>
                                 <li>
-                                    <a href="#problemDiv">Problem</a>
+                                    <a href="#section2">Solution</a>
                                 </li>
-                                <li>
-                                    <a href="#solutionDiv">Solution</a>
-                                </li>
-                                <li><a href="#howItWorksDiv">How it Works</a>
+                                <li><a href="#section3">How it Works</a>
                                 </li>
                                 <!--<li><a href="#conclusion">Conclusion</a>
                                 </li>-->
@@ -49,18 +49,18 @@
                     <div class ='headerTitleContainer'> 
                         <span id="spantxt1">Allergy Checker</span>
                         <div id="span2">
-                        <span id="spantxt2">Keep track of your allergies.</span>
+                        <span id="spantxt2">Helping you avoid allergens.</span>
                         </div>
                     </div>
                 </div>
-            <div class="buttonWrapper">
-                <a href="#problemDiv">
+            <div class="buttonWrapper" align="center">
+                <a href="#section1">
                 <button class="myButton" type="button">Read more!</button> 
                 </a>
-                <a href="#DownloadApp">
+                <!--<a href="#DownloadApp">
                 <button class="myButton" type="button">
                     Download now!
-                </button></a>
+                </button></a>-->
             </div>
             </div>
             </div>
@@ -69,13 +69,14 @@
             <section>
                 <article id="section1">
 					<div class="sectionContainer">
-						<h1 style="text-align: center" >The Problem</h1>
+						<h1 style="text-align: center" >Our problem</h1>
                         
                         <hr>
 							<div>
-								<p style="width: 100%;">We all know that grocery shopping can be time-consuming, now imagine if you or someone close to you have dietary restrictions in form of a food allergy. Having to read the nutritional label on every single new product you wish to purchase just to make sure it does not contain any trace of something you or your friends are allergic to takes up a lot of time, and some might not be comfortable standing in the store and reading label after label.
-                                With further restrictions as reduced eye sight or difficulties reading small texts for instance, makes the task even harder and close to impossible. If you suffer from these restrictions, you are stuck with having to buy products you are already familiar with day after day, thus greatly reducing your opportunities to discover new and exciting dishes that you may not be allergic to.
-                                Making sure that you do not ingest something you’re allergic to, especially if you have severe food allergies, is of great importance. If you’re in a rush or stressed out, overseeing some of the ingredients is quite possible and the consequences can be severe.
+								<p style="width: 100%;">We all know that grocery shopping can be time-consuming. Now imagine if you or someone close to you have a dietary restriction in form of a food allergy. Searching through the endless number of aisles at a grocery store and reading label after label on the lookout for new products that do not contain any ingredients you are allergic to takes up a huge amount of time. Some might not even be comfortable standing in the store reading all these labels in fear of judgmental looks from bystanders. A survey conducted by our team showed that 7 out of 10 people with food allergies feel like they are spending too much time when grocery shopping and wish to reduce the time spent searching for safe products. 
+With further restrictions such as reduced eye sight or difficulties reading small texts for instance, the task becomes even harder and close to impossible. If you have these restrictions, you might be stuck with only purchasing products you are already familiar with, thus reducing your opportunities to discover new and exciting dishes that you may not be allergic to.
+Making sure that you do not ingest something you are allergic to, especially if you have severe food allergies is of great importance. Overseeing some of the ingredients is a constant risk, especially if you are stressed or in a rush, and the consequences can be severe. 
+
                                 </p>
 							</div>
 					</div>
@@ -92,7 +93,10 @@
 						<div class="sectionParagraph2" style="margin: 0 auto;">
                             <div>
                                 <p style="width: 100%;">
-                                        We are happy to present Allergy Checker(?), a simple, user friendly and accessible application that aims to allow everyone to keep track of their allergy habits, no matter their age or how comfortable they are with smartphones or applications in general. It will give you and your friends and family an easier time when grocery shopping with food restrictions.         
+                                        After conducting a survey which consisted of interviewing 20 people we discovered that the individuals with food allergies spend on average 15 minutes more than someone with no food restrictions when shopping new products; most of this time is spent on reading nutritional labels. 
+Our goal is to reduce the time-consuming aspect of grocery shopping with food allergies, giving the user an easier time when shopping new products, thus allowing the user to safely purchase products knowing that it does not contain anything he/she might be allergic to. 
+We are proud to present Allergy Checker, a simple, user friendly and accessible application that allows everyone to buy safe food products easily and efficiently, and make it easier to do grocery shopping with food restrictions.
+         
                                 </p>
                             </div>
 						</div>
@@ -114,8 +118,9 @@
                             <div>
                                 <div id="SideBySide">
                                     <p>
-                                             Every single product that you can find in any grocery shop has its unique barcode. These barcodes are stored in a database which connect the barcodes, to their designated product. The barcodes enable us to get all the information about which ingredients are within the desired product.
-                                            The application allows you to specify which ingredients you wish to avoid, simply by checking these off. Then using the camera on your phone, you simply scan the barcode. The application then automatically pulls the product from the database and runs through the ingredients checking if the product contains any of the ingredients or traces of these. 
+                                             Every single product that you can find in any grocery shop has its unique barcode. These barcodes are stored in a database which connects each barcode to its designated product. The barcodes enable us to get all the information about which ingredients are within the desired product.
+The application allows you to specify which ingredients you wish to avoid, simply by checking these off. Then, using the camera on your phone, you simply scan the barcode. The application then automatically pulls the product from the database and runs through the ingredients checking if the product contains any of the ingredients or traces of these. This completely removes the need to personally search through the nutritional label.
+ 
                                     </p>
                                 </div>
                                  <div id="SideBySide">
@@ -133,7 +138,7 @@
                                 
                                 <div id="SideBySide">
                                     <p>
-                                        We will not collect any personal information about you through the app; however, if you wish, you can create an Allergy Checker account which will give you numerous benefits. For instance, you will be able to communicate with other users of the app with whom you will be able to exchange tips and tricks about which food products to buy or avoid. You will also be able to see what kind of ingredients other users are allergic to. This is great when you are planning a dinner with someone; it will give you guidance for what kind of dishes you will want to avoid preparing. 
+                                        If you wish, you can create an Allergy Checker account which will give you numerous benefits. For instance, you will be able to communicate with other users of the app with whom you will be able to exchange tips and tricks about which food products to buy or avoid. You will also be able to see what kind of ingredients other users are allergic to. This is great when you are planning a dinner with someone; it will give you guidance for what kind of dishes you will want to avoid preparing. 
                                     </p>
                                 </div>
                                 
@@ -152,7 +157,10 @@
 						<div class="sectionParagraph4" style="margin: 0 auto;">
                             <div>
                                 <p style="width: 100%;">
-                                        Our team of experts is constantly on the lookout for new food products emerging on the market, that contain known allergens. So, whenever a product comes out that contains something you are allergic to, the app will notify you of that, so that you do not accidentally buy a product that is unsafe for you. This goes only for the allergens that you have specified for yourself; if you update your list of allergens, the notifications you receive will always reflect your updated list. Interacting with the app gets much more practical with the ability to integrate it with smartwatches. Whether you have an iOS or an Android smartwatch, Allergy Checker will be able to incorporate itself with it. This way, you will be able to receive the notifications you would normally receive – alerts about new allergens, or a message, if you have an account – without the need to check your phone every time. 
+                                        Our team of experts is constantly on the lookout for new food products emerging on the market, that contain known allergens. So, whenever a product comes out that contains something you are allergic to, the app will notify you of that, so that you do not accidentally buy a product that is unsafe for you. This goes only for the allergens that you have specified for yourself; if you update your list of allergens, the notifications you receive will always reflect your updated list.</p>
+                                <p>
+Interacting with the app gets much more practical with the ability to integrate it with smartwatches. Whether you have an iOS or an Android smartwatch, Allergy Checker will be able to incorporate itself with it. This way, you will be able to receive the notifications you would normally receive – alerts about new allergens, or a message, if you have an account – without the need to check your phone every time. 
+ 
                                 </p>
                             </div>
 						</div>
@@ -169,19 +177,22 @@
 					<div class="sectionContainer5">
                     <div id="SideBySide">
 						<h1 style="font-size: 2em;">
-							Accessible
+							Spread the word!
 						</h1>
 						<div class="sectionParagraph5" style="margin: 0 auto;">
                             <div>
                                 <p style="width: 100%;">
-                                        Our team of experts is constantly on the lookout for new food products emerging on the market, that contain known allergens. So, whenever a product comes out that contains something you are allergic to, the app will notify you of that, so that you do not accidentally buy a product that is unsafe for you. This goes only for the allergens that you have specified for yourself; if you update your list of allergens, the notifications you receive will always reflect your updated list. Interacting with the app gets much more practical with the ability to integrate it with smartwatches. Whether you have an iOS or an Android smartwatch, Allergy Checker will be able to incorporate itself with it. This way, you will be able to receive the notifications you would normally receive – alerts 
+                                        We are constantly working on improving the app to make it even easier for you to do your grocery shopping. Since the entire Allergy Checker project is new, we would very much appreciate your feedback on the app. Therefore, feel free to get in touch with us by e-mail or by following us on your favorite social media. We would also appreciate it if you recommend us to your friends. All in all, we really hope Allergy Checker will relieve you of many everyday struggles if you have food allergies.
+                                </p>
+                                <p style="font-size: 10px">
+                                    Made by Momcilo Delic, Fikret Kadiric, Branislav Petrovic and Henry Tran.
                                 </p>
                             </div>
 						</div>
                     </div>
-                        <div id="SideBySide">
+                        <!--<div id="SideBySide">
                             <img style="width: 70%;" src="responsive-2.png">
-                        </div>
+                        </div>-->
 					</div>
             </article>
                 
