@@ -18,11 +18,12 @@ body {
 }
 
 #menuWrapper {
-    position: absolute;
+    position: fixed;
     width: 100%;
     height: 50px;
     text-align: center;
     z-index: 10;
+    background: #de4f4f;
 }
 
 
@@ -62,7 +63,8 @@ li a {
 }
 
 li:hover a {
-    color: #de4f4f;
+    background: #fff;
+    color: #000;
 }
 
 .show-menu {
@@ -466,7 +468,7 @@ article div {
         position:static;
         display:none;
         white-space: initial;
-        background-color: white;
+        background-color: #f9f9f9;
     }
     
 
