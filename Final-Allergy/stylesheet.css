@@ -346,7 +346,7 @@ article div {
 .buttonWrapper {
     margin: auto;
     width: 35%;
-    padding: 125px;
+    padding-top: 125px;
 }
 
 .myButton {
