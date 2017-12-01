@@ -105,7 +105,7 @@ section {
     background-color: white;
 }
 
-#section2{
+#solution{
       background: url(momo1.jpg) no-repeat center center fixed; 
   -webkit-background-size: cover;
   -moz-background-size: cover;
@@ -113,7 +113,7 @@ section {
   background-size: cover;
 }
 
-#section3 {
+#howitworks {
     background-color: white;
 }
 
@@ -121,7 +121,7 @@ section {
     background-color: #e7e7ef;
 }
 
-#section5{
+#download{
     background-color: white;
 }
 
