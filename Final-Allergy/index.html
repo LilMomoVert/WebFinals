@@ -1,5 +1,4 @@
 
-
 <!DOCTYPE html>
 <html lang="en">
 	<head>
@@ -12,17 +11,33 @@
 		<link href='https://fonts.googleapis.com/css?family=Lato:400,300,700,900,400italic' rel='stylesheet' type='text/css'>
 		<link href='https://fonts.googleapis.com/css?family=Lobster|Libre+Baskerville:400,700,400italic' rel='stylesheet' type='text/css'>
 
+    <script>
+        function toggleMenu(){
+            var menuItems = document.getElementById('menu');
+                var w = window.innerWidth;
+            if(menuItems.style.display == "block" && w < 935){
+                menuItems.style.display = "none";
+            } else if(w > 935){
+                menuItems.style.display = "block";
+            } else {
+                menuItems.style.display = "block";
+            }
+        }
+        window.onresize = toggleMenu;
+
+    </script>
+
 	
 	</head>
 
 	<body>
 
         <div>
-            <div id="menuWrapper">
+            <div id="menuWrapper" >
                 <div id="menuContainer">
-                    <label for="show-menu" class="show-menu">Show Menu</label>
+                    <label for="show-menu" class="show-menu" onClick="toggleMenu()" >Show Menu</label>
                         <input type="checkbox" id="show-menu" role="button"/>
-                            <ul id="menu">
+                            <ul id="menu" onClick="toggleMenu()">
                                 <li><a href="#homepage">Home</a>
                                 </li>
                                 <li>
